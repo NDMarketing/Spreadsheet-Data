@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tbl-data {
+    position: absolute;
+}
+
+input {
+    display: flex;
+    color: rgb(22, 146, 218);
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+::-webkit-file-upload-button {
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    background-color: rgba(22, 146, 218, 1);
+}
+::-webkit-file-upload-button:hover {
+    background-color: rgba(22, 146, 218, 0.6);
+}
+.hidden {
+    display: none;
+}
+
